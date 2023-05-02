@@ -5,13 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>
+        Banana Talk
+    </title>
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <h1>Banana Talk</h1>
+    <header class="yellow">
+        <div class="heading center-text">Banana Talk</div>
+    </header>
+
+    <div class="translater-container center-text">
+        <form>
+            <label for="txt"></label>
+            <textarea name="add-text" id="txt" cols="60" rows="10"
+                placeholder="Put your text here for translation"></textarea>
+            <button class="translater-btn yellow" type="button">Translate</button>
+        </form>
+        <div id="translate-output" style="padding: 1rem; font-size: large;">
+        </div>
+    </div>
+    <footer class="yellow center-text">
+        <h3>about</h3>
+        <p>Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator
+            to convert your text from English to Minion speak or Banana language.</p>
+    </footer>
     <script src="app.js"></script>
 </body>
 

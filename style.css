@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #333333;
+}
+.yellow{
+    background-color: yellow;
+}
+.center-text{
+    text-align: center;
+}
+
+header{
+    height: 100px;
+margin-bottom: 50px;
+
+}
+header .heading{
+    font-size: 3rem;
+    padding-top: 20px;
+}
+.translater-container {
+width: 70%;
+margin: auto;
+
+}
+.translater-container textarea{
+    width: 100%;
+    font-size: 1.2rem;
+    height: 20vh;
+}
+textarea:focus{
+    outline: none;
+}
+.translater-btn{
+  display: block;
+  border: none;
+  padding: 15px;
+  font-size: 1.2rem;
+  width: 20%;
+  margin: 20px auto;
+  font-family: 'Kalam', cursive;
+}
+
+#translate-output{
+height: 15vh;
+overflow: scroll;
+border: 1px solid black;
+margin-bottom: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0%;  
+ width: 100%;   
+padding-top: 0.2rem;
+font-size: 1.2rem;
+}
+footer p{
+    width: 700px;
+    padding-bottom: 20px;
+    margin: auto;
+}
